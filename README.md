@@ -176,8 +176,8 @@ with torch.no_grad():
     # Select the prediction for the sample (first element)
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = label_encoder.inverse_transform([predicted_class_index])[0]
-print("Name: PUGAZHALENTHI V")
-print("Register No: 212224100047")
+print("Name: S.RISITHA")
+print("Register No: 212225240119")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[12].item()])[0]}')
 ```
